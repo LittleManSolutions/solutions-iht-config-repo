@@ -2,7 +2,7 @@
 
 iht:
  annualTaxAllowance: 325000
- rate: 45
+ rate: 40
  charitableRate: 36
  proportionForCharitableRate: 10
  spouseExemption: 325000
