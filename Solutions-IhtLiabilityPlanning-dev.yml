@@ -1,0 +1,33 @@
+# Solutions IHT Liability Planning
+
+iht:
+ annualTaxAllowance: 325000
+ rate: 45
+ charitableRate: 36
+ proportionForCharitableRate: 10
+ spouseExemption: 325000
+ taperReliefs:
+  - lowerLimit: 0
+    upperLimit: 3
+    reductionRate: 0
+    payableRate: 100
+  - lowerLimit: 3
+    upperLimit: 4
+    reductionRate: 20
+    payableRate: 80
+  - lowerLimit: 4
+    upperLimit: 5
+    reductionRate: 40
+    payableRate: 60
+  - lowerLimit: 5
+    upperLimit: 6
+    reductionRate: 60
+    payableRate: 40
+  - lowerLimit: 6
+    upperLimit: 7
+    reductionRate: 80
+    payableRate: 20
+  - lowerLimit: 7
+    upperLimit: 99
+    reductionRate: 100
+    payableRate: 0
